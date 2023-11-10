@@ -78,7 +78,7 @@ const Map: React.FC = () => {
                         ))}
                         <Marker position={[location.latitude, location.longitude]} />
                     </MapContainer>
-                    <p className="mb-4"><strong>Instructions</strong>: click multiple points on the map, then click "Add trail" to add a trail to the map. You can add multiple trails.</p>
+                    <p className="mb-4"><strong>Instructions</strong>: click multiple points on the map, then click Add trail to add a trail to the map. You can add multiple trails.</p>
                     <form onSubmit={handleAddTrail} className="mb-4">
                         <button className="bg-slate-300 p-4 font-bold text-base">Add trail</button>
                         {error && (
